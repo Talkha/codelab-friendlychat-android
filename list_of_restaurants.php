@@ -13,7 +13,7 @@
 <th>Address</th>
 <th>Phone<th/>
 </tr>
-<?php
+          <?php
 $serverName = "simplewebtp047005.database.windows.net";
 $connectionOptions = array( 
 "Database" => "simpleweb",
@@ -27,7 +27,7 @@ die("Error connection: ".sqlsrv_errors());
 }
 $tsql= "SELECT * FROM [dbo].[restaurant]";
 $getResults= sqlsrv_query($conn, $tsql);
-if ($getResults == FALSE
+if ($getResults == FALSE)
 {
 die(sqlsrv_errors());
 } 
