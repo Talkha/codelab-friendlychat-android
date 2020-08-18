@@ -13,7 +13,8 @@
 <th>Address</th>
 <th>Phone<th/>
 </tr>
-<?php
+  
+  <?php
 $serverName = "simplewebtp047005.database.windows.net";
 $connectionOptions = array( 
 "Database" => "simpleweb",
